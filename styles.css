@@ -1,0 +1,33 @@
+body,html{
+    margin:0;
+    padding: 0;
+    height:100vh
+}
+
+header{
+    height: 5%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ticBoard{
+    height: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template: repeat(3, 100px)/repeat(3, 100px);
+}
+
+.tile{
+    background-color: green;
+    border: 1px solid red;
+}
+
+footer{
+    height: 5%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
